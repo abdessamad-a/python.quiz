@@ -1,3 +1,5 @@
+#Cette fonction sert à gérer la logique de progression à travers les niveaux. Elle commence par le niveau 1, si l'utilisateur a au moins 6 bonnes réponses il passe au niveau 2 sinon le quiz s'arrête et son score est affiché.
+
 from principe import ask_question
 from niveaux import level_1, level_2
 
